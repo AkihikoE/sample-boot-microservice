@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpringUserApplication",
+            "request": "launch",
+            "mainClass": "lab.microservice.user.SpringUserApplication",
+            "projectName": "user-service"
+        },
+        {
+            "type": "java",
+            "name": "SpringGreetApplication",
+            "request": "launch",
+            "mainClass": "lab.microservice.user.SpringGreetApplication",
+            "projectName": "user-service"
+        },
+        {
+            "type": "java",
+            "name": "SpringGreetApplication",
+            "request": "launch",
+            "mainClass": "lab.microservice.hello.SpringGreetApplication",
+            "projectName": "hello-service"
+        },
+        {
+            "type": "java",
+            "name": "SpringBootMicroserviceEurekaNamingServerApplication",
+            "request": "launch",
+            "mainClass": "lab.microservice.namingserver.SpringBootMicroserviceEurekaNamingServerApplication",
+            "projectName": "naming-server"
+        },
+        {
+            "type": "java",
             "name": "Launch EurekaNamingServer",
             "request": "launch",
             "mainClass": "lab.microservice.namingserver.SpringBootMicroserviceEurekaNamingServerApplication",
@@ -19,6 +47,5 @@
             "projectName": "sample-microservice-hello",
             "args": "--server.port=8100"
         }
-
     ]
 }
